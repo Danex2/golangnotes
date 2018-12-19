@@ -18,7 +18,7 @@ func main() {
 	shortVar()
 }
 
-// inside of a function the short variable declaration can be use ":=", does not work in the global scope. Variables must be assigned with var, func, etc.
+// inside of a function the short variable declaration can be used ":=", does not work in the global scope. Variables must be assigned with var, func, etc.
 
 func shortVar() {
 	j := "Does this work?"
