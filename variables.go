@@ -6,6 +6,10 @@ import "fmt"
 - the keyword var defines a list of variables
 - they can be defined in the global scope or inside of a function
 - the type always goes at the end of variable declarations
+- Any numeric variable declared without a value is given the number 0
+- Any boolean declared without true/false is given false
+- Any string declared without a value is given an empty string
+- Variables can also be declared with the "const" keyword. Like in javascript, anything declared as const can not be redeclared
 */
 var name, school, grade string
 
